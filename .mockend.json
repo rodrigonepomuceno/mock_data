@@ -1,6 +1,6 @@
 {
   "Post": {
-    "Saldo": "double", 
+    "Saldo": "int", 
     "Vencimento": "date"
   }
 }
