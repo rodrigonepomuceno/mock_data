@@ -13,6 +13,7 @@ class AppPages {
 
   static final routes = [
     GetPage(name: Routes.HOME, page: () => HomePage(), bindings: [HomeBind()]),
+    GetPage(name: Routes.NOVAROTA, page: () => HomePage()),
     GetPage(
         name: Routes.DETAILS,
         page: () => DetailsPage(),

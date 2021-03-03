@@ -6,7 +6,7 @@ class MinhaAPI {
     try {
       Dio _client = Dio();
       var response = await _client.get(
-        'https://mockend.com/rodrigonepomuceno/mock_dados/posts',
+        'https://mockend.com/rodrigonepomuceno/mock_data/posts',
       );
       print('RESPONSE ${response.data} \n');
       if (response != null) {
