@@ -10,7 +10,7 @@ environment:
 
 dependencies:
   dio: ^3.0.10
-  get: ^3.24.0
+  get: ^3.26.0
   intl: ^0.16.1
   flutter:
     sdk: flutter
